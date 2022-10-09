@@ -10,7 +10,7 @@ const Logo = ({ testId }) => (
 </pattern>
 </defs>
 <g id="surface154874">
-<path style={{strokeNone, fill-ruleNonzero, fillUrl(#pattern0), " d="M 13.601562 15.199219 L 269.601562 15.199219 L 269.601562 271.199219 L 13.601562 271.199219 Z M 13.601562 15.199219 "}}/>
+<path style={{stroke(#none), fillRule(#nonzero), fillUrl(#pattern0), " d="M 13.601562 15.199219 L 269.601562 15.199219 L 269.601562 271.199219 L 13.601562 271.199219 Z M 13.601562 15.199219 "}}/>
 </g>
 </svg>
   </figure>
