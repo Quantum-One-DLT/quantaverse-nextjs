@@ -6,12 +6,12 @@ const Hero = () => (
   <div className="hero my-5 text-center" data-testid="hero">
     <Logo testId="hero-logo" />
     <h1 className="mb-4" data-testid="hero-title">
-      Next.js Sample Project
+      The optimal digital trust paradigm..
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      This is a sample application that demonstrates an authentication flow for a Regular Web App, using{' '}
-      <a href="https://nextjs.org">Next.js</a>
+      ..is not Web2, Web3, Web5, nor 'Elon' X, it is the QuantaVerse{' '}
+      <a href="https://app.fractal.id/authorize?client_id=rZ0cAmPpY2SPgF4bXqBrzndqoTzk1EYsq4RtQ1fNhe0&redirect_uri=https%3A%2F%2Fquantumone.network%2Fcallback&response_type=code&scope=contact%3Aread%20verification.basic%3Aread%20verification.basic.details%3Aread%20verification.liveness%3Aread%20verification.liveness.details%3Aread">Verify ID</a>
     </p>
   </div>
 );
