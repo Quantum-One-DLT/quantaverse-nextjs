@@ -1,3 +1,4 @@
-module.exports = {
-  poweredByHeader: false
+const withImages = require('next-images')
+module.exports = withImages{
+   poweredByHeader: false
 };

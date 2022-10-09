@@ -21,7 +21,7 @@ COPY . .
 FROM node:lts-alpine
 
 ENV NODE_ENV production
-ENV API_PORT 3001
+ENV API_PORT 3003
 
 WORKDIR /app
 
@@ -34,7 +34,7 @@ COPY --from=build /app/public ./public
 
 RUN npm install
 
-EXPOSE 3000
-EXPOSE 3001
+EXPOSE 3002
+EXPOSE 3003
 
 CMD npm start

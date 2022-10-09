@@ -10,8 +10,8 @@
     "start:api": "node api-server",
     "test": "jest tests --coverage --maxWorkers=10",
     "test:watch": "jest --coverage --watch",
-    "test:integration": "start-server-and-test start http-get://localhost:3000 cypress:run",
-    "test:integration:watch": "start-server-and-test start http-get://localhost:3000 cypress:open",
+    "test:integration": "start-server-and-test start http-get://localhost:3002 cypress:run",
+    "test:integration:watch": "start-server-and-test start http-get://localhost:3002 cypress:open",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open"
   },
@@ -30,6 +30,7 @@
     "jwks-rsa": "^2.1.4",
     "morgan": "^1.10.0",
     "next": "^12.3.0",
+    "next-images": "^1.8.4",
     "nodemon": "^2.0.19",
     "react": "17.0.2",
     "react-dom": "17.0.2",
