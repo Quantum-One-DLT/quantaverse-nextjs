@@ -14,8 +14,8 @@ const Logo = ({ testId }) => (
 </svg>
   </figure>
 );
-  
-  
+
+export default Logo;
         
 			
 			
