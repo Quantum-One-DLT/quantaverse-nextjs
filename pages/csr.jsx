@@ -9,7 +9,7 @@ export default withPageAuthRequired(function SSRPage() {
         <div data-testid="csr-text">
           <p>
             You can protect a client-side rendered page by wrapping it with <code>withPageAuthRequired</code>. Only
-            logged in users will be able to access it. If the user is logged out, they will be redirected to the login
+            logged in users can access. If the user is logged out, they will be redirected to the login
             page instead.
           </p>
           <p>
