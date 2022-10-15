@@ -4,9 +4,9 @@ function SvgLogo(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={3176.470588235294}
-      height={561.8830035023784}
-      viewBox="0 0 3176.470588235294 561.8830035023784"
+      width={204.470588235294}
+      height={36.1035023784}
+      viewBox="0 0 204.470588235294 36.1030035023784"
       {...props}
     >
       <g transform="matrix(8.82353 0 0 8.82353 88.235 88.235)">
