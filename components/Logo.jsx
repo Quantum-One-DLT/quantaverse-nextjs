@@ -34,9 +34,3 @@ function SvgLogo(props) {
 }
 
 export default SvgLogo;
-
-
-
-
-
-  
