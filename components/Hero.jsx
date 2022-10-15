@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Logo from './Logo';
+import SvgLogo from './Logo';
 
 const Hero = () => (
   <div className="hero my-5 text-center" data-testid="hero">
-    <Logo testId="hero-logo" />
+    <SvgLogo testId="hero-logo" />
     <h1 className="mb-4" data-testid="hero-title">
       The optimal digital trust paradigm..
     </h1>
