@@ -30,7 +30,7 @@ const NavBar = () => {
           <NavbarBrand> 
            <a class="navbar-brand" href="#">
             <SvgLogo/></a>
-          </NavBarBrand>
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar data-testid="navbar-items">
