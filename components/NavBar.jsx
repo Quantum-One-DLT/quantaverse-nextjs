@@ -16,7 +16,7 @@ import { useUser } from '@auth0/nextjs-auth0';
 
 import PageLink from './PageLink';
 import AnchorLink from './AnchorLink';
-import SvgLogo from './Logo'; 
+import SvgLogo2 from './Logo2';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const NavBar = () => {
         <Container>
           <NavbarBrand> 
            <a class="navbar-brand" href="#">
-            <SvgLogo/></a>
+            <SvgLogo2/></a>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
           <Collapse isOpen={isOpen} navbar>
@@ -64,7 +64,7 @@ const NavBar = () => {
                 <NavItem id="qsLoginBtn">
                   <AnchorLink
                     href="/api/auth/login"
-                    className="btn btn-primary btn-margin"
+                    className="btn btn-secondary btn-sm btn-margin"
                     tabIndex={0}
                     testId="navbar-login-desktop">
                     Log in
@@ -106,7 +106,7 @@ const NavBar = () => {
               <Nav className="d-md-none" navbar>
                 <AnchorLink
                   href="/api/auth/login"
-                  className="btn btn-primary btn-block"
+                  className="btn btn-secondary btn-block btn-sm"
                   tabIndex={0}
                   testId="navbar-login-mobile">
                   Log in
