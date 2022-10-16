@@ -16,7 +16,7 @@ import { useUser } from '@auth0/nextjs-auth0';
 
 import PageLink from './PageLink';
 import AnchorLink from './AnchorLink';
-import SvgLogo2 from './Logo2';
+import SvgLogo3 from './Logo3';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const NavBar = () => {
         <Container>
           <NavbarBrand> 
            <a class="navbar-brand" href="#">
-            <SvgLogo2/></a>
+            <SvgLogo3/></a>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
           <Collapse isOpen={isOpen} navbar>
