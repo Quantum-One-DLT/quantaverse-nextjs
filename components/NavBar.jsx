@@ -16,7 +16,7 @@ import { useUser } from '@auth0/nextjs-auth0';
 
 import PageLink from './PageLink';
 import AnchorLink from './AnchorLink';
-let Logo = require("../assets/NavLogo.png");
+import SvgLogo2 from './Logo2;
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,10 +29,7 @@ const NavBar = () => {
         <Container>
           <NavbarBrand> 
            <a href="#">
-            <img src={Logo} style={{
-                height: 40,
-                width: 223,
-        }}/>
+            <SvgLogo2/>
             </a>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
