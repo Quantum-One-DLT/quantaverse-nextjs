@@ -10,7 +10,7 @@ const Hero = () => (
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      ..is not Web2, Web3, Web5, nor 'Elon' X, it is the QuantaVerse{' '}
+      ..is not Web2, Web3, Web5, nor 'Elon' X, it is the QuantaVerse. The 1st 3500 who verify their ID or prove a previous verification will receive a random amount of our testnet token during the ongoing DA-FI token airdrop campaign. Additional details will be posted very soon. Lock in your drop now and {' '}
       <a href="https://app.fractal.id/authorize?client_id=rZ0cAmPpY2SPgF4bXqBrzndqoTzk1EYsq4RtQ1fNhe0&redirect_uri=https%3A%2F%2Fquantumone.network%2Fcallback&response_type=code&scope=contact%3Aread%20verification.basic%3Aread%20verification.basic.details%3Aread%20verification.liveness%3Aread%20verification.liveness.details%3Aread">Verify ID</a>
     </p>
   </div>
