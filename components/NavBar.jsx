@@ -28,8 +28,11 @@ const NavBar = () => {
       <Navbar color="dark" dark expand="md">
         <Container>
           <NavbarBrand> 
-           <a class="navbar-brand" href="#">
-            <img src={Logo}/>
+           <a href="#">
+            <img src={Logo} style={{
+                height: 40,
+                width: 223,
+        }}/>
             </a>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
