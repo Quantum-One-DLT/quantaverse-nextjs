@@ -16,7 +16,7 @@ import { useUser } from '@auth0/nextjs-auth0';
 
 import PageLink from './PageLink';
 import AnchorLink from './AnchorLink';
-import SvgLogo2 from './Logo2;
+import SvgLogo2 from './Logo2';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
