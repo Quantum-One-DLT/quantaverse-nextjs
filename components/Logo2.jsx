@@ -5,8 +5,8 @@ function SvgLogo2(props) {
     <svg xmlns="http://www.w3.org/2000/svg" width={254} height={45} {...props}>
       <defs>
         <linearGradient id="a" x1={2.898} y1={0} x2={95.30299} y2={0}>
-          <stop stopColor="#03fff6" offset="0%" />
-          <stop stopColor="#00A1FF" offset="100%" />
+          <stop stopColor="#05F283" offset="0%" />
+          <stop stopColor="#00B5E6" offset="100%" />
         </linearGradient>
       </defs>
       <path
