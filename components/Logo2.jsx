@@ -6,7 +6,7 @@ function SvgLogo2(props) {
       <defs>
         <linearGradient id="a" x1={2.898} y1={0} x2={95.30299} y2={0}>
           <stop stopColor="#F0FFFF" offset="0%" />
-          <stop stopColor="#03fff6" offset="100%" />
+          <stop stopColor="#00CFC8" offset="100%" />
         </linearGradient>
       </defs>
       <path
